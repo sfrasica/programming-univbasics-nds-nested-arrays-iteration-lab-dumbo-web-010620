@@ -22,7 +22,7 @@ def find_greater_pair(src)
       inner_results = []
     while element_index < src[row_index].length do
       if src[row_index][element_index][0] > src[row_index][element_index][1]
-        inner_results << src[row_index][element_index][0]
+        do inner_results << src[row_index][element_index][0]
       else
         inner_results << src[row_index][element_index][1]
       end
